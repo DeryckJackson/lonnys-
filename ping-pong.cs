@@ -12,6 +12,9 @@ class PingPong
       if ((i % 3) == 0)
       {
         Console.WriteLine("ping");
+      } else if ((i % 5) == 0)
+      {
+        Console.WriteLine("pong");
       }
       Console.WriteLine(i.ToString());
     }
